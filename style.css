@@ -1,0 +1,248 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+
+  #main{
+    width: 100%;
+    height: 100%;
+  }
+
+  #main #background{
+    width: 100%;
+    height: 100%;
+    filter:brightness(90%);
+    filter:contrast(85%);
+    filter:opacity(85%);
+    background-image: url("https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    image-rendering: optimizeQuality;
+  }
+
+  #topnav{
+    justify-content: space-between;
+    display: flex;
+    left: 2.5%;
+    top: 3%;
+    width: 95%;
+    height: 10%;
+    position: absolute;
+  }
+
+  #logo{
+    display: flex;
+    width: 5%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  #logo i{
+    font-size: 80px;
+    color: rgb(20, 145, 114);
+  }
+ 
+  #buttonlogo{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #options{
+    justify-content: space-evenly;
+    padding: 1% 1%;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    z-index: 99999;
+    font-weight: bold;
+  }
+
+  #home{
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.385);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 18%;
+  }
+
+  #buttonhome{
+    color: greenyellow;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #gallery{
+    border-radius: 100%;
+    background-color:rgba(128, 128, 128, 0.385);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 18%;
+  }
+
+  #buttongallery{
+    color: greenyellow;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #sale{
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.385);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 18%;
+    height: 100%;
+  }
+
+  #buttonsale{
+    border: 2px solid #dadada;
+    color: greenyellow;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #rent{
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.385);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 18%;
+    height: 100%;
+  }
+    
+  #buttonrent{
+    color: greenyellow;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #about{
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.385);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 18%;
+    height: 100%;
+  }
+
+  #buttonabout{
+    color: greenyellow;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #menu{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 5%;
+    height: 100%;
+  }
+
+  #menu i{
+    font-weight: 800;
+    font-size: 40px;
+    color:  rgb(0, 0, 0);
+  }
+
+  #menu:hover{
+    transform: rotate(90deg);
+  }
+
+  #buttonmenu{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #title{
+    width: 30%;
+    height: 30%;
+    background-color: aqua;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+
+  #heading{
+    width: 100%;
+    height: 50%;
+    background-color: greenyellow;
+  }
+
+  #content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+  }
+
+  #line{
+    width: 50%;
+    height: 100%;
+    background-color: slateblue;
+  }
+
+  #text{
+    width: 50%;
+    height: 100%;
+    background-color: violet;
+  }
+
+  #bottomnav{
+    justify-content: space-between;
+    display: flex;
+    width: 55%;
+    height: 30%;
+    background-color: red;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    padding: 2% 2%;
+  }
+
+  #btext1{
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+  }
+
+  #btext2{
+    width: 30%;
+    height: 100%;
+    background-color: green;
+  }
+
+  #btext3{
+    width: 30%;
+    height: 100%;
+    background-color: yellow;
+  }
+
+  #button{
+    width: 5%;
+    height: 7%;
+    background-color: green;
+    position: absolute;
+    left: 55%;
+    bottom: 30%;
+  }
